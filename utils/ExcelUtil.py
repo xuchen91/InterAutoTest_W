@@ -52,5 +52,5 @@ class ExcelReader:
 # print(data_list)
 
 if __name__ == "__main__":
-    reader = ExcelReader("../data/testdata.xlsx","美多商城接口测试")
+    reader = ExcelReader("../data/testdata.xlsx","接口测试")
     print(reader.data())

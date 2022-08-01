@@ -19,7 +19,7 @@ class Data:
                 #print(line)
         #3、保存要执行结果，放到新的列表。
                 run_list.append(line)
-        print(run_list)
+        #print(run_list)
         return run_list
 
     def get_case_list(self):

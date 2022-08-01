@@ -136,6 +136,6 @@ def send_mail(report_html_path="",content="",title="测试"):
     email.send_mail()
 
 if __name__ =="__main__":
-    #init_db("db_1")
-    print(res_find('{"Authorization": "JWT ${token}$"}'))
-    print(res_sub('{"Authorization": "JWT ${token}$"}',"123"))
+    # init_db("db_1")
+    print(res_find('{"jwttoken": "${jwttoken}$"}'))
+    print(res_sub('{"jwttoken": "${jwttoken}$"}',"123"))

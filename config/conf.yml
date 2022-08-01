@@ -6,13 +6,13 @@ BASE:
  #扩展名
  log_extension: ".log"
  test:
-  url: "http://211.103.136.242:8064"
+  url: "http://47.94.239.71"
   case_file: "testdata.xlsx"
-  case_sheet: "美多商城接口测试"
+  case_sheet: "接口测试"
 
 
 email:
- smtpserver: "smtp.itcast.com"
- username: "wangxu@itcast.com"
- password: "FDSArewq1"
- receiver: "wangxu@itcast.com"
+ smtpserver: "smtp.qq.com"
+ username: "103805697@qq.com"
+ password: "yqlevfptbqwlcagi"
+ receiver: "103805697@qq.com"
